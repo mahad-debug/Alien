@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "linkedin-follow-widget.js",
+  "engines":{
+    "node":"14.x"
+  },
   "scripts": {
     "start": "node index.js",
     "build": "babel src -d dist"
